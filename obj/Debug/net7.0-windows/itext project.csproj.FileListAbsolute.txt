@@ -1,0 +1,41 @@
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext project.exe
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext project.deps.json
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext project.runtimeconfig.json
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext project.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext project.pdb
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext.barcodes.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext.bouncy-castle-connector.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext.forms.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext.io.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext.kernel.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext.layout.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext.pdfa.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext.pdfua.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext.sign.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext.styledxmlparser.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext.svg.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext.bouncy-castle-adapter.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\itext.commons.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\adbo\source\repos\itext project\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\adbo\source\repos\itext project\obj\Debug\net7.0-windows\itext project.csproj.AssemblyReference.cache
+C:\Users\adbo\source\repos\itext project\obj\Debug\net7.0-windows\itext_project.Form1.resources
+C:\Users\adbo\source\repos\itext project\obj\Debug\net7.0-windows\itext project.csproj.GenerateResource.cache
+C:\Users\adbo\source\repos\itext project\obj\Debug\net7.0-windows\itext project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adbo\source\repos\itext project\obj\Debug\net7.0-windows\itext project.AssemblyInfoInputs.cache
+C:\Users\adbo\source\repos\itext project\obj\Debug\net7.0-windows\itext project.AssemblyInfo.cs
+C:\Users\adbo\source\repos\itext project\obj\Debug\net7.0-windows\itext project.csproj.CoreCompileInputs.cache
+C:\Users\adbo\source\repos\itext project\obj\Debug\net7.0-windows\itext project.csproj.CopyComplete
+C:\Users\adbo\source\repos\itext project\obj\Debug\net7.0-windows\itext project.dll
+C:\Users\adbo\source\repos\itext project\obj\Debug\net7.0-windows\refint\itext project.dll
+C:\Users\adbo\source\repos\itext project\obj\Debug\net7.0-windows\itext project.pdb
+C:\Users\adbo\source\repos\itext project\obj\Debug\net7.0-windows\itext project.genruntimeconfig.cache
+C:\Users\adbo\source\repos\itext project\obj\Debug\net7.0-windows\ref\itext project.dll
