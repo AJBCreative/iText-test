@@ -25,7 +25,7 @@ The result is a Windows Forms application with some basic functionality:
    * for each loop writing information, the progress bar increments
    * Success message when progress bar has completed
      
-![image](https://github.com/user-attachments/assets/f6f75331-5246-4c55-8e5d-8b5ac6755eb3)
+  ![image](https://github.com/user-attachments/assets/f6f75331-5246-4c55-8e5d-8b5ac6755eb3)
 
 
 
