@@ -39,7 +39,7 @@ namespace itext_project
             mtg_collectionBodyObj = getCollection.ToString();
         }
 
-            private void lbl_pdfInput_Click(object sender, EventArgs e)
+        private void lbl_pdfInput_Click(object sender, EventArgs e)
         {
 
         }
@@ -77,11 +77,21 @@ namespace itext_project
                     dynamic str_mtgCollectionJSON = await response.Content.ReadAsStringAsync();
                     dynamic output = JObject.Parse(str_mtgCollectionJSON);
                     mtg_collectionResponseObj = output;
-                    await cardLoop();
+                    // lets prompt the user to save this somewhere
+                    using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+                    {
+                        saveFileDialog.Filter = "PDF files (*.pdf)|*.pdf";
+                        saveFileDialog.Title = "Save PDF Document";
+                        if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                        {
+                            string pdfPath = saveFileDialog.FileName;
+                            await cardLoop(pdfPath);
+                        }
+                    }
                 }
                 else
                 {
-                    return;
+                    MessageBox.Show("Request body is empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             catch (Exception ex)
@@ -103,9 +113,9 @@ namespace itext_project
 
             return imagePath;
         }
-        private async Task cardLoop()
+        private async Task cardLoop(string pdfPath)
         {
-            using (var pdfWriter = new PdfWriter("mtg_collection.pdf"))
+            using (var pdfWriter = new PdfWriter(pdfPath))
             using (var pdfDocument = new PdfDocument(pdfWriter))
             using (var document = new Document(pdfDocument))
             {
@@ -149,9 +159,11 @@ namespace itext_project
                         .Add(new Paragraph(""))
                         .Add(image);
                 }
+               MessageBox.Show("PDF saved successfully at " + pdfPath, "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
-            
-            
+
+
         }
     }
 }
