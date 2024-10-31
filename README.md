@@ -1,5 +1,8 @@
 # iText-test
 Experimenting with c# iTEXT SDK
+Latest - 2024-10-31
+![image](https://github.com/user-attachments/assets/3b1070b6-fec9-4b2a-a3e5-5468096a3210)
+
 
 The project can be opened with Visual Studio and uses .NET v 7.0
 The result is a Windows Forms application with some basic functionality:
@@ -21,6 +24,8 @@ The result is a Windows Forms application with some basic functionality:
 4. Progress bar has been added!
    * for each loop writing information, the progress bar increments
    * Success message when progress bar has completed
+    ![image](https://github.com/user-attachments/assets/f6f75331-5246-4c55-8e5d-8b5ac6755eb3)
+
 
 
   
