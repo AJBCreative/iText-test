@@ -1,10 +1,12 @@
 # iText-test
 Experimenting with c# iTEXT SDK
 Latest - 2024-10-31
-![image](https://github.com/user-attachments/assets/3b1070b6-fec9-4b2a-a3e5-5468096a3210)
+![image](https://github.com/user-attachments/assets/35e68833-79ce-4501-a07e-f35b05da050e)
 
 
-The project can be opened with Visual Studio and uses .NET v 7.0
+
+The project can be opened with Visual Studio and uses .NET v 7.0 a
+The project requires the open source PDF library "iTEXT", install it first here: https://kb.itextpdf.com/itext/installing-itext-for-net before you attempt running the project 
 The result is a Windows Forms application with some basic functionality:
 
 1. You can write some text in the input field and click the Generate button located bottom left; this will create a PDF within the project directory having the text you submitted.
