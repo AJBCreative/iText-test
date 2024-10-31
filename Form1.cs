@@ -116,16 +116,16 @@ namespace itext_project
                     string cardName = card["name"].ToString();
                     string cardId = card["id"].ToString();
 
-                    // Example 3: Access nested nodes, such as "image_uris"
+                    // Access nested nodes, such as "image_uris"
                     JObject imageUris = (JObject)card["image_uris"];
                     string imageUrlSmall = imageUris["small"].ToString();
                     string imageUrlNormal = imageUris["normal"].ToString();
 
-                    // Example 4: Access values in the "prices" nested object
+                    // Access values in the "prices" nested object
                     JObject prices = (JObject)card["prices"];
                     string usdPrice = prices["usd"]?.ToString() ?? "N/A";
 
-                    // Example 5: Access specific fields in "legalities"
+                    // Access specific fields in "legalities"
                     JObject legalities = (JObject)card["legalities"];
                     string standardLegality = legalities["standard"].ToString();
 
