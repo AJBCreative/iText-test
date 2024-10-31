@@ -50,8 +50,8 @@ namespace itext_project
 
                 foreach (JObject set in set_CollectionArray)
                 {
-                    string friendlyName = set["name"].ToString(); // Assuming there's a friendly name
-                    string code = set["code"].ToString(); // The code you want to keep
+                    string friendlyName = set["name"].ToString(); // This is the name we want to show in the combobox
+                    string code = set["code"].ToString(); // mtg set code
 
                     // Create a new SetInfo object and add it to the ComboBox
                     SetInfo setInfo = new SetInfo
