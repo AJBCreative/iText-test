@@ -1,4 +1,4 @@
-namespace itext_project
+﻿namespace itext_project
 {
     partial class Form1
     {
@@ -33,6 +33,10 @@ namespace itext_project
             btn_pdfGeneration = new Button();
             btn_mtgCollectionAPI = new Button();
             label1 = new Label();
+            lbl_printableSet = new Label();
+            cmb_pickSet = new ComboBox();
+            btn_CreatePDFset = new Button();
+            Loading = new ProgressBar();
             SuspendLayout();
             // 
             // lbl_pdfInput
@@ -67,7 +71,7 @@ namespace itext_project
             // 
             // btn_mtgCollectionAPI
             // 
-            btn_mtgCollectionAPI.Location = new Point(27, 99);
+            btn_mtgCollectionAPI.Location = new Point(27, 70);
             btn_mtgCollectionAPI.Name = "btn_mtgCollectionAPI";
             btn_mtgCollectionAPI.Size = new Size(142, 68);
             btn_mtgCollectionAPI.TabIndex = 3;
@@ -84,11 +88,49 @@ namespace itext_project
             label1.TabIndex = 4;
             label1.Text = "These buttons will auto-generate Magic The Gathering Card sheets in PDF format";
             // 
+            // lbl_printableSet
+            // 
+            lbl_printableSet.AutoSize = true;
+            lbl_printableSet.Location = new Point(358, 70);
+            lbl_printableSet.Name = "lbl_printableSet";
+            lbl_printableSet.Size = new Size(142, 15);
+            lbl_printableSet.TabIndex = 5;
+            lbl_printableSet.Text = "Create a printable PDF set";
+            // 
+            // cmb_pickSet
+            // 
+            cmb_pickSet.FormattingEnabled = true;
+            cmb_pickSet.Location = new Point(358, 94);
+            cmb_pickSet.Name = "cmb_pickSet";
+            cmb_pickSet.Size = new Size(194, 23);
+            cmb_pickSet.TabIndex = 6;
+            // 
+            // btn_CreatePDFset
+            // 
+            btn_CreatePDFset.Location = new Point(570, 94);
+            btn_CreatePDFset.Name = "btn_CreatePDFset";
+            btn_CreatePDFset.Size = new Size(146, 23);
+            btn_CreatePDFset.TabIndex = 7;
+            btn_CreatePDFset.Text = "Create Printable PDF SET";
+            btn_CreatePDFset.UseVisualStyleBackColor = true;
+            btn_CreatePDFset.Click += btn_CreatePDFset_Click;
+            // 
+            // Loading
+            // 
+            Loading.Location = new Point(358, 138);
+            Loading.Name = "Loading";
+            Loading.Size = new Size(100, 23);
+            Loading.TabIndex = 8;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(793, 743);
+            Controls.Add(Loading);
+            Controls.Add(btn_CreatePDFset);
+            Controls.Add(cmb_pickSet);
+            Controls.Add(lbl_printableSet);
             Controls.Add(label1);
             Controls.Add(btn_mtgCollectionAPI);
             Controls.Add(btn_pdfGeneration);
@@ -108,5 +150,9 @@ namespace itext_project
         private Button btn_pdfGeneration;
         private Button btn_mtgCollectionAPI;
         private Label label1;
+        private Label lbl_printableSet;
+        private ComboBox cmb_pickSet;
+        private Button btn_CreatePDFset;
+        private ProgressBar Loading;
     }
 }
